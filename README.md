@@ -29,7 +29,7 @@
 4. Вообще, хотелось бы, чтобы задачи не терялись и когда вызывается `next`, а вычисления еще идут, это запоминалось и запускалось после. Подумайте, как это сделать и сделайте.
 
 ### Тулзы
-* `-g -fsanitize=thread` для pthread sanitiser
-* `valgrind --tool=helgrind` для valgrind
+* Компилировать с ключами `-g -fsanitize=thread` для pthread sanitiser
+* Запустить на исполняемом файле `valgrind --tool=helgrind` для valgrind
 * `clang-format` для проверки форматирования.
 
